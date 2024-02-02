@@ -5,6 +5,11 @@ VisualStudioVersion = 17.10.34531.228
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApi", "HelloWorldApi.csproj", "{46C1C4DD-98B9-410E-AB9B-F56DB462105B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{C99CA30B-96A5-4BB7-82FB-7CF50ADE9BEB}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build-84d76.yaml = .github\workflows\build-84d76.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
